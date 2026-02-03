@@ -17,18 +17,18 @@ export default function ContactSection() {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div className="space-y-2">
                                     <label className="text-sm font-bold text-gray-700">Full Name</label>
-                                    <input type="text" className="w-full px-4 py-3 rounded bg-white border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all" placeholder="John Doe" />
+                                    <input type="text" className="w-full px-4 py-3 rounded bg-white border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all" placeholder="Ravi Kumar" />
                                 </div>
                                 <div className="space-y-2">
                                     <label className="text-sm font-bold text-gray-700">Phone Number</label>
-                                    <input type="tel" className="w-full px-4 py-3 rounded bg-white border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all" placeholder="(555) 000-0000" />
+                                    <input type="tel" className="w-full px-4 py-3 rounded bg-white border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all" placeholder="+91 98765 43210" />
                                 </div>
                             </div>
 
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div className="space-y-2">
                                     <label className="text-sm font-bold text-gray-700">City / Location</label>
-                                    <input type="text" className="w-full px-4 py-3 rounded bg-white border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all" placeholder="New York, NY" />
+                                    <input type="text" className="w-full px-4 py-3 rounded bg-white border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all" placeholder="Chennai, Tamil Nadu" />
                                 </div>
                                 <div className="space-y-2">
                                     <label className="text-sm font-bold text-gray-700">Project Type</label>
@@ -65,7 +65,7 @@ export default function ContactSection() {
                                 <Phone className="h-8 w-8 text-primary mb-4" />
                                 <h4 className="text-lg font-bold mb-2">Call Us</h4>
                                 <p className="text-gray-400 text-sm mb-2">Mon-Sat from 8am to 6pm</p>
-                                <a href="tel:+15551234567" className="text-xl font-black hover:text-primary transition-colors block">(555) 123-4567</a>
+                                <a href="tel:+919876543210" className="text-xl font-black hover:text-primary transition-colors block">+91 98765 43210</a>
                             </div>
                             <div className="p-6 bg-primary text-secondary rounded-lg">
                                 <Mail className="h-8 w-8 text-secondary mb-4" />
@@ -83,8 +83,8 @@ export default function ContactSection() {
                                 <div>
                                     <h4 className="text-xl font-bold text-secondary mb-1">Main Office</h4>
                                     <p className="text-gray-600">
-                                        123 Construction Blvd, Business District<br />
-                                        New York, NY 10001
+                                        123, Anna Salai, Teynampet<br />
+                                        Chennai, Tamil Nadu 600018
                                     </p>
                                 </div>
                             </div>
@@ -106,7 +106,7 @@ export default function ContactSection() {
                         {/* Map Embed Placeholder */}
                         <div className="w-full h-64 bg-gray-200 rounded-lg overflow-hidden relative">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.119763973046!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1645437817088!5m2!1sen!2sin"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248756.1167539828!2d80.06892409541336!3d13.047487785536717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1693489245381!5m2!1sen!2sin"
                                 width="100%"
                                 height="100%"
                                 style={{ border: 0 }}

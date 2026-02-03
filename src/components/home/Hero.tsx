@@ -52,7 +52,7 @@ export default function Hero() {
                     </div>
 
                     <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl leading-relaxed font-medium drop-shadow-md">
-                        Leading the way in residential & commercial construction. We deliver quality craftsmanship, strategic planning, and on-time project execution.
+                        Premier construction company serving Chennai and Tamil Nadu. We deliver quality craftsmanship, strategic planning, and on-time project execution.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-5 mb-16">
@@ -64,7 +64,7 @@ export default function Hero() {
                             <ArrowRight className="h-5 w-5" />
                         </Link>
                         <a
-                            href="tel:+15551234567"
+                            href="tel:+919876543210"
                             className="btn btn-outline text-base px-10 py-5 border-white/40 hover:bg-white hover:text-black hover:border-white"
                         >
                             <Phone className="h-5 w-5" />

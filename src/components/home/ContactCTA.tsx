@@ -13,14 +13,14 @@ export default function ContactCTA() {
 
                 <div className="flex flex-col sm:flex-row gap-6 justify-center">
                     <a
-                        href="tel:+15551234567"
+                        href="tel:+919876543210"
                         className="btn btn-primary px-10 py-5 text-lg shadow-xl shadow-primary/10"
                     >
                         <Phone className="h-6 w-6" />
                         Call Us Now
                     </a>
                     <a
-                        href="https://wa.me/15551234567"
+                        href="https://wa.me/919876543210"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-outline px-10 py-5 text-lg hover:bg-[#25D366] hover:border-[#25D366] hover:text-white"

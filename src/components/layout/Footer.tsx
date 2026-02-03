@@ -78,13 +78,13 @@ export default function Footer() {
                         <ul className="space-y-6">
                             <li className="flex gap-4">
                                 <MapPin className="h-6 w-6 text-primary flex-shrink-0" />
-                                <span className="text-gray-400">123 Construction Blvd, Business District, City, ST 12345</span>
+                                <span className="text-gray-400">123, Anna Salai, Teynampet, Chennai, Tamil Nadu 600018</span>
                             </li>
                             <li className="flex gap-4">
                                 <Phone className="h-6 w-6 text-primary flex-shrink-0" />
                                 <div className="flex flex-col">
                                     <span className="text-gray-400 font-bold">Call Us 24/7</span>
-                                    <a href="tel:+15551234567" className="text-white hover:text-primary transition-colors">(555) 123-4567</a>
+                                    <a href="tel:+919876543210" className="text-white hover:text-primary transition-colors">+91 98765 43210</a>
                                 </div>
                             </li>
                             <li className="flex gap-4">

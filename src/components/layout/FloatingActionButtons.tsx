@@ -5,7 +5,7 @@ export default function FloatingActionButtons() {
     return (
         <div className="fixed bottom-6 right-6 z-40 flex flex-col gap-4">
             <motion.a
-                href="https://wa.me/15551234567"
+                href="https://wa.me/919876543210"
                 target="_blank"
                 rel="noopener noreferrer"
                 initial={{ scale: 0 }}
@@ -18,7 +18,7 @@ export default function FloatingActionButtons() {
             </motion.a>
 
             <motion.a
-                href="tel:+15551234567"
+                href="tel:+919876543210"
                 initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
                 transition={{ delay: 0.1 }}

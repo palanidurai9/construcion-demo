@@ -23,9 +23,9 @@ export default function AboutSummary() {
 
                     <div className="w-full lg:w-1/2">
                         <span className="text-primary font-bold uppercase tracking-widest text-sm mb-4 block">Who We Are</span>
-                        <h2 className="heading-lg text-secondary mb-6">Building Excellence & Legacy</h2>
+                        <h2 className="heading-lg text-secondary mb-6">Building Excellence Across Tamil Nadu</h2>
                         <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                            We are a full-service construction company delivering residential and commercial projects with precision, transparency, and experienced leadership.
+                            Based in Chennai, we are a full-service construction company delivering residential and commercial projects across the state with precision, transparency, and experienced leadership.
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">

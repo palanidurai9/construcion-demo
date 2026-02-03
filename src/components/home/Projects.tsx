@@ -9,36 +9,36 @@ const projects = [
         id: 1,
         title: 'Modern Office Complex',
         category: 'Commercial',
-        image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-        location: 'Downtown District'
+        image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        location: 'OMR, Chennai'
     },
     {
         id: 2,
         title: 'Luxury Villa Estimate',
         category: 'Residential',
         image: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-        location: 'Beverly Hills'
+        location: 'ECR, Chennai'
     },
     {
         id: 3,
         title: 'Industrial Warehouse',
         category: 'Industrial',
-        image: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-        location: 'Logistics Park'
+        image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        location: 'Oragadam, Tamil Nadu'
     },
     {
         id: 4,
         title: 'Urban High-Rise',
         category: 'Commercial',
         image: 'https://images.unsplash.com/photo-1545558014-8692077e9b5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-        location: 'City Center'
+        location: 'Gandhipuram, Coimbatore'
     },
     {
         id: 5,
         title: 'Suburban Family Home',
         category: 'Residential',
-        image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-        location: 'Green Valley'
+        image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        location: 'R.S. Puram, Coimbatore'
     },
     {
         id: 6,

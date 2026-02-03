@@ -4,6 +4,11 @@ import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import ScrollToTop from './components/layout/ScrollToTop';
 import Home from './pages/Home';
+import About from './pages/About';
+import ServicesPage from './pages/Services';
+import SectorsPage from './pages/Sectors';
+import InsightsPage from './pages/Insights';
+import ContactPage from './pages/Contact';
 
 const Placeholder = ({ title }: { title: string }) => (
   <>
@@ -42,13 +47,13 @@ export default function App() {
     <Routes>
       <Route element={<Layout />}>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<Placeholder title="About Us" />} />
-        <Route path="/services" element={<Placeholder title="Our Services" />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<ServicesPage />} />
         <Route path="/services/:id" element={<Placeholder title="Service Details" />} />
-        <Route path="/sectors" element={<Placeholder title="Sectors & Expertise" />} />
-        <Route path="/insights" element={<Placeholder title="Insights & Resources" />} />
-        <Route path="/contact" element={<Placeholder title="Contact Us" />} />
-        <Route path="/quote" element={<Placeholder title="Request a Quote" />} />
+        <Route path="/sectors" element={<SectorsPage />} />
+        <Route path="/insights" element={<InsightsPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/quote" element={<ContactPage />} />
         <Route path="*" element={<Placeholder title="404 - Page Not Found" />} />
       </Route>
     </Routes>
